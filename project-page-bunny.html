@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mert Aksu - Composer & Producer</title>
+    <link rel="icon" type="image/x-icon" href="./assets/heart.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Mert Aksu</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#contact">Message Me</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="mert-nav">
+      <div class="logo">Mert Aksu</div>
+      <div class="mert-menu">
+        <div class="mert-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Message Me</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/bunbun.png" alt="buny bun bun art" />
+      </div>
+      <div class="section__text">
+        <h1 class="title">Bunny Bun Bun</h1>
+        <p class="section__text__p2">Official Soundtrack</p>
+       <div class="audio-container">
+          <audio
+            controls
+            controlsList="nodownload"
+            src="./assets/BunBun.mp3"
+          ></audio>
+        </div>
+
+        <div class="btn-container">
+          <a
+            class="btn btn-color-2 project-btn"
+            href="https://mertaksu.bandcamp.com/album/bunny-bun-bun-official-soundtrack"
+            target="_blank"
+            >  Listen Full Album  </a
+          >
+          <a 
+          href="#video-container"
+          class="btn btn-color-2 project-btn"
+          >Details</a>
+        </div>
+        <div> 
+          <p>Role: Original Soundtrack</p>
+          <P>Publisher: <a href="https://www.nintendo.com/us/search/#cat=gme&f=softwarePublisher&softwarePublisher=Weakfish+Studio" target="_blank" style="text-decoration: underline;">Weakfish Studio</a></P>
+          <p>Developer: <a href="https://www.koyan.info/" style="text-decoration: underline;" target="_blank">Koyan</a></p></div>
+      </div>
+
+      </div>
+
+    </section>
+    
+    <section id="video-container">
+      <p class="section__text title">About this game</p>
+      <div id="video-container">
+        <p class="section__text">
+          Where toxified vegetables turns into zombies and attacks our beloved town Tranel. <br>
+          A hero in the name of Hopper Bun arrives! <br>
+          Will he be able to find out what caused this and save his town?<br><br>
+  
+          2D action rpg game with a lot of dangerous vegetables and an exciting questline!<br><br>
+          You can find more details about this game from <a style="text-decoration: underline;" href="https://www.koyan.info/" target="_blank">here</a>
+        </p>
+      </div>
+      
+      <div style="margin-top: 5rem; margin-bottom: 1rem;"  class="btn-container">
+        <ul class="nav-links">
+          <li> <a href="#contact">Message Me</a> </li>
+          <li> <a href="#desktop-nav">Go to Top</a> </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">You can</p>
+      <h1 class="title">Message Me</h1>
+      <p class="section__text">
+        Start a project, schedule a meeting or just say hello!
+      </p>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:mertaksu.bs@gmail.com" target="_blank">Click here to message me</a>
+          </p>
+        </div>
+        
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#desktop-nav">Go to Top</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Mert Aksu. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
